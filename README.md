@@ -1,12 +1,13 @@
-Kotlin JS Hello World Demo
-=======================
+Kotlin Js Mocha Test Demo
+=========================
 
-Hello world from kotlin-js.
+Run Kotlin-js code with mocha.
 
 
 Run:
 
 ```
+npm install
 ./gradlew compileKotlin2Js
 open index.html
 ```

@@ -1,0 +1,27 @@
+{
+  "name": "kotlin-js-test-demo",
+  "version": "1.0.0",
+  "description": "Kotlin JS Hello World Demo =======================",
+  "main": "index.js",
+  "dependencies": {
+    "kotlin": "^1.2.50"
+  },
+  "devDependencies": {
+    "kotlin-test": "^1.2.50",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotlin-demos/kotlin-js-hello-world-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kotlin-demos/kotlin-js-hello-world-demo/issues"
+  },
+  "homepage": "https://github.com/kotlin-demos/kotlin-js-hello-world-demo#readme"
+}
