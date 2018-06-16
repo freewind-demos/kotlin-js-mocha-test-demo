@@ -1,17 +1,15 @@
 Kotlin Js Mocha Test Demo
 =========================
 
-Run Kotlin-js code with mocha.
-
+Run Kotlin-js code with mocha. Modified from official mocha examples by removing the slow `installMocha` tasks from gradle, instead, use npm tests to install it in the beginning.
 
 Run:
 
 ```
 npm install
-./gradlew compileKotlin2Js
-open index.html
+./gradlew test
 ```
 
-You will see "Hello, Kotlin!" in console of your browser's developer panel.
+You will see test report.
 
 
